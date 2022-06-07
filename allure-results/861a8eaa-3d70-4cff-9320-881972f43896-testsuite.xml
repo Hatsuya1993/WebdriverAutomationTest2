@@ -1,0 +1,97 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1654603300724' stop='1654603302460'>
+    <name>Home Page Test</name>
+    <title>Home Page Test</title>
+    <test-cases>
+        <test-case start='1654603300725' status='failed' stop='1654603302428'>
+            <name>Check the url is correct</name>
+            <title>Check the url is correct</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-102.0.5005.63'/>
+                <parameter kind='argument' name='browser' value='chrome-102.0.5005.63'/>
+            </parameters>
+            <steps>
+                <step start='1654603300728' status='failed' stop='1654603302427'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='d63cb6cb-ee4c-4dce-81a3-5af76ae19a3f-attachment.json' type='application/json' size='48'/>
+                    </attachments>
+                    <steps>
+                        <step start='1654603300732' status='passed' stop='1654603302154'>
+                            <name>POST /session/:sessionId/url</name>
+                            <title>POST /session/:sessionId/url</title>
+                            <attachments>
+                                <attachment title='Request' source='a8d9c601-9291-4d5b-8604-bd712ed2cebc-attachment.json' type='application/json' size='65'/>
+                                <attachment title='Response' source='aff5f745-3ab0-4f2f-962e-ad5b8ebb8b6c-attachment.json' type='application/json' size='52'/>
+                            </attachments>
+                            <steps>
+                                <step start='1654603300736' status='passed' stop='1654603300764'>
+                                    <name>GET /session/:sessionId/url</name>
+                                    <title>GET /session/:sessionId/url</title>
+                                    <attachments>
+                                        <attachment title='Response' source='bc59685e-2deb-44b2-b88e-1ff894a92105-attachment.json' type='application/json' size='83'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                                <step start='1654603300770' status='passed' stop='1654603302147'>
+                                    <name>POST /session/:sessionId/element/16f1bd31-e4f0-4a05-8e6c-fee20710d779/element</name>
+                                    <title>POST /session/:sessionId/element/16f1bd31-e4f0-4a05-8e6c-fee20710d779/element</title>
+                                    <attachments>
+                                        <attachment title='Request' source='744b3f97-3a03-4a04-bce6-5751a37e8ecb-attachment.json' type='application/json' size='60'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                        <step start='1654603302168' status='failed' stop='1654603302427'>
+                            <name>GET /session/:sessionId/screenshot</name>
+                            <title>GET /session/:sessionId/screenshot</title>
+                            <attachments/>
+                            <steps>
+                                <step start='1654603302180' status='passed' stop='1654603302418'>
+                                    <name>POST /session/:sessionId/element</name>
+                                    <title>POST /session/:sessionId/element</title>
+                                    <attachments>
+                                        <attachment title='Request' source='b822f071-c6ff-4ed5-9b2c-13b180ab731f-attachment.json' type='application/json' size='48'/>
+                                        <attachment title='Screenshot' source='a6062981-de0d-466e-a388-293d025eeb41-attachment.png' type='image/png' size='357692'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1654603302442' status='undefined'>
+                    <name>POST /session/:sessionId/element/16f1bd31-e4f0-4a05-8e6c-fee20710d779/element</name>
+                    <title>POST /session/:sessionId/element/16f1bd31-e4f0-4a05-8e6c-fee20710d779/element</title>
+                    <attachments>
+                        <attachment title='Request' source='07ec4bc9-d4f9-48d7-a404-1cf1a431fb0d-attachment.json' type='application/json' size='60'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Response' source='1f04a73f-385a-4209-9537-bb56404fbc9b-attachment.json' type='application/json' size='83'/>
+            </attachments>
+            <failure>
+                <message>expected 'https://rahulshettyacademy.com/seleni…' to include 'rashettyacademy.com/seleniumPractise'      
+                      actual expected
+                      
+                      'https://rahulshettyacademy.com/seleniumPractise/#/'undefined
+                      </message>
+                <stack-trace>AssertionError: expected 'https://rahulshettyacademy.com/seleni…' to include 'rashettyacademy.com/seleniumPractise'
+                    at Context.&lt;anonymous> (C:\Users\hal19\OneDrive\Desktop\Files\Programming\WebdriverIO\tutorial\test2\test\specs\HomePage.spec.ts:14:43)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

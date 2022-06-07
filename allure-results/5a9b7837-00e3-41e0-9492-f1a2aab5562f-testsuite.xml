@@ -1,0 +1,85 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1654603255274' stop='1654603257405'>
+    <name>Home Page Test</name>
+    <title>Home Page Test</title>
+    <test-cases>
+        <test-case start='1654603255274' status='broken' stop='1654603257388'>
+            <name>Check the url is correct</name>
+            <title>Check the url is correct</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-102.0.5005.63'/>
+                <parameter kind='argument' name='browser' value='chrome-102.0.5005.63'/>
+            </parameters>
+            <steps>
+                <step start='1654603255277' status='broken' stop='1654603257388'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='aea877db-8c23-41a0-ac0a-ace8618c9809-attachment.json' type='application/json' size='48'/>
+                    </attachments>
+                    <steps>
+                        <step start='1654603255286' status='passed' stop='1654603257386'>
+                            <name>POST /session/:sessionId/url</name>
+                            <title>POST /session/:sessionId/url</title>
+                            <attachments>
+                                <attachment title='Request' source='310d6eb4-a18d-4b68-aa99-2729a265d449-attachment.json' type='application/json' size='65'/>
+                                <attachment title='Screenshot' source='6807d71f-2fb0-499e-a8bf-36a8ae481ba5-attachment.png' type='image/png' size='357655'/>
+                            </attachments>
+                            <steps>
+                                <step start='1654603255292' status='passed' stop='1654603257145'>
+                                    <name>GET /session/:sessionId/url</name>
+                                    <title>GET /session/:sessionId/url</title>
+                                    <attachments>
+                                        <attachment title='Response' source='16cc93e0-0f65-4d4f-a84e-9663957bd5dc-attachment.json' type='application/json' size='52'/>
+                                    </attachments>
+                                    <steps>
+                                        <step start='1654603255304' status='passed' stop='1654603255328'>
+                                            <name>GET /session/:sessionId/screenshot</name>
+                                            <title>GET /session/:sessionId/screenshot</title>
+                                            <attachments>
+                                                <attachment title='Response' source='a67d5633-e01b-4148-b511-c90d8153a2ef-attachment.json' type='application/json' size='83'/>
+                                            </attachments>
+                                            <steps/>
+                                        </step>
+                                        <step start='1654603255337' status='passed' stop='1654603257140'>
+                                            <name>POST /session/:sessionId/element/e45e87fa-5c63-4159-8f69-d66295668f7a/element</name>
+                                            <title>POST /session/:sessionId/element/e45e87fa-5c63-4159-8f69-d66295668f7a/element</title>
+                                            <attachments>
+                                                <attachment title='Request' source='0a1d43ce-8da2-4049-af6d-e63a2e803f9c-attachment.json' type='application/json' size='60'/>
+                                            </attachments>
+                                            <steps/>
+                                        </step>
+                                    </steps>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1654603257399' status='undefined'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='5bb1b968-a7cb-48ef-93b1-aa52c81c8af1-attachment.json' type='application/json' size='48'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>the given combination of arguments (promise and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string</message>
+                <stack-trace>AssertionError: the given combination of arguments (promise and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string
+                    at Context.&lt;anonymous> (C:\Users\hal19\OneDrive\Desktop\Files\Programming\WebdriverIO\tutorial\test2\test\specs\HomePage.spec.ts:14:37)
+                    at Context.executeAsync (C:\Users\hal19\OneDrive\Desktop\Files\Programming\WebdriverIO\tutorial\test2\node_modules\@wdio\utils\build\shim.js:333:27)
+                    at Context.testFrameworkFnWrapper (C:\Users\hal19\OneDrive\Desktop\Files\Programming\WebdriverIO\tutorial\test2\node_modules\@wdio\utils\build\test-framework\testFnWrapper.js:51:32)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
